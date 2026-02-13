@@ -1,9 +1,9 @@
 :root {
-    --bluebell: #A2A2D0;
-    --cream: #d1fdff;
-    --white: #FFFFFF;
-    --gold: #00d6b6;
-    --dark-gray: #333333;
+    --bluebell: hsl(253, 96%, 18%);
+    --cream: hsl(226, 72%, 83%);
+    --white: oklab(100% 0 -0.00011);
+    --gold: #fffef1;
+    --dark-gray: #1b230c;
     --font-heading: 'Montserrat', sans-serif;
     --font-body: 'Lora', serif;
 }
@@ -72,7 +72,7 @@ body {
 
 .cta-button:hover {
     transform: scale(1.05);
-    background-color: #00ffd9;
+    background-color: #4785f8;
 }
 
 #surprise-content {
@@ -144,7 +144,7 @@ body {
 }
 
 .letter-button:hover {
-     background-color: #b9b9e0;
+     background-color: #000000;
 }
 
 footer {

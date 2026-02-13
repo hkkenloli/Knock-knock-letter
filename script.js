@@ -5,7 +5,7 @@ canvas.height = window.innerHeight;
 
 let petals = [];
 const numberOfPetals = 50;
-const bluebellColor = 'rgba(162, 162, 208, 0.7)'; 
+const bluebellColor = 'rgba(17, 17, 98, 0.7)'; 
 
 function createPetal() {
     return {
